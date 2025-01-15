@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Profile</title>
+  </head>
+  <body>
+    <main>
+      <div class="profile-container">
+        <article class="primary-profile-container">
+          <header>
+            <img src="../../images/princess01.webp" alt="프로필 사진" />
+            <div class="profile-info">
+              <h1>Jack Adams</h1>
+              <p class="job-title">Product Designer</p>
+              <address class="location">Los Angeles, California, USA</address>
+            </div>
+
+            <button type="button" class="edit-button">
+              <i class="fa fa-pencil" aria-hidden="true"></i>
+              <span>Edit</span>
+            </button>
+          </header>
+        </article>
+
+        <article class="profile-detail-container">
+          <header class="personal-info-header">
+            <h2>Personal information</h2>
+            <button type="button" class="edit-button">
+              <i class="fa fa-pencil" aria-hidden="true"></i>
+              <span>Edit</span>
+            </button>
+          </header>
+
+          <form class="personal-info-content">
+            <fieldset class="info-group">
+              <div class="info-item">
+                <label for="firstName">First Name</label>
+                <output id="firstName" name="firstName">Jack</output>
+              </div>
+
+              <div class="info-item">
+                <label for="lastName">Last Name</label>
+                <output id="lastName" name="lastName">Adams</output>
+              </div>
+            </fieldset>
+
+            <fieldset class="info-group">
+              <div class="info-item">
+                <label for="email">Email address</label>
+                <output id="email" name="email">jackadams@gmail.com</output>
+              </div>
+
+              <div class="info-item">
+                <label for="phone">Phone</label>
+                <output id="phone" name="phone">(213) 555-1234</output>
+              </div>
+            </fieldset>
+
+            <fieldset class="info-item full-width">
+              <label for="bio">Bio</label>
+              <output id="bio" name="bio">Product Designer</output>
+            </fieldset>
+          </form>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>

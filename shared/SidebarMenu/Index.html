@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SidebarMenu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <nav>
+        <div class="logo-container">
+          <p>
+            <span class="bread-color">S</span
+            >
+            <span class="gradient-text">ANDNA</span> 
+            <span class="bread-color">T</span>
+          </p>
+        </div>
+        <ul>
+          <li>
+            <a href="#profile" class="menu-item">
+              <i class="fa fa-fw fa-money-bill" aria-hidden="true"></i>
+              <span class="menu-name">프로필</span>
+            </a>
+            <ul class="submenu">
+              <li>
+                <div class="submenu-item">
+                  <a href="#earnings">Earnings</a>
+                </div>
+              </li>
+              <li>
+                <div class="submenu-item">
+                  <a href="#refunds">Refunds</a>
+                </div>
+              </li>
+              <li>
+                <div class="submenu-item">
+                  <a href="#declines">Declines</a>
+                </div>
+              </li>
+              <li>
+                <div class="submenu-item">
+                  <a href="#payouts">Payouts</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#staft-list" class="menu-item">
+              <i class="fa-solid fa-user"></i>
+              <span class="menu-name">Staff List</span>
+            </a>
+          </li>
+        </ul>
+        <div class="theme-toggle-container">
+          <label class="switch">
+            <input type="checkbox" id="theme-toggle" />
+            <span class="slider round">
+              <span class="toggle-text admin-text active">Admin</span>
+              <span class="toggle-text user-text">User</span>
+            </span>
+          </label>
+        </div>
+      </nav>
+    </aside>
+    <script src="script.js"></script>
+  </body>
+</html>

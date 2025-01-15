@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --font-size-base: 16px;
+  --sidebar-width: 12rem;
+}
+
+html,
+body {
+  font-size: var(--font-size-base);
+  height: 100%; /* 부모 요소의 높이 설정 */
+  margin: 0; /* 여백 제거 */
+}
